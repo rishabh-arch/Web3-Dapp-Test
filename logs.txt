@@ -1,0 +1,78 @@
+PS D:\Blockchain_Course\Teja> truffle migrate --reset --network matic
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Migrations.sol
+> Compiling .\contracts\Todo.sol
+> Compiling .\contracts\Todo.sol
+> Artifacts written to D:\Blockchain_Course\Teja\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.10+commit.fc410830.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'matic'
+> Network id:      80001
+> Block gas limit: 20000000 (0x1312d00)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x4fe731211456f54d7d714ab4dc8da7c26820fa6a47fbf3d474b21c7bded589dc
+   > Blocks: 5            Seconds: 11
+   > contract address:    0xa7Fb1299928B023F943f1188ca2808d26767E040
+   > block number:        24681851
+   > block timestamp:     1644223453
+   > account:             0x54c860C59DdF1960FE526201A90E0fD62f4a5eB5
+   > balance:             0.4978942799919191
+   > gas used:            250154 (0x3d12a)
+   > gas price:           2.500000009 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000625385002251386 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 24681857)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000625385002251386 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'demo'
+   ----------------
+   > transaction hash:    0xa3c97f8ea5988f76483098aefc81115532b2ead0cadf01506c4f9692f783daf1
+   > Blocks: 4            Seconds: 9
+   > contract address:    0x60368Af5FFfAb2668F860DBf78DC5cbD3B4762c7
+   > block number:        24681869
+   > block timestamp:     1644223493
+   > account:             0x54c860C59DdF1960FE526201A90E0fD62f4a5eB5
+   > balance:             0.496937069988519057
+   > gas used:            336971 (0x5244b)
+   > gas price:           2.500000009 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000842427503032739 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 3 (block: 24681874)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000842427503032739 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.001467812505284125 ETH
