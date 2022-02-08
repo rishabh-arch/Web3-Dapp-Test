@@ -62,6 +62,7 @@ var ABI = [
       .send({ from: '0x54c860C59DdF1960FE526201A90E0fD62f4a5eB5' })
       // .then(r=>console.log)
       // setInterval(2000)
+      alert("submitted")
     }
 
     document.getElementById('ClickMe_result').onclick = ()=>{
